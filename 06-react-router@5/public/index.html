@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css" /> -->
+
+    <!--
+     ./css/bootstrap.css :表示在相对路径下寻找
+      /css/bootstrap.css :表示在根目录下寻找
+    -->
+
+    <!--默认跳转到多级路由,根路径下的样式丢失的解决方案: -->
+    <!-- 方法一: -->
+    <!-- <link rel="stylesheet" href="/css/bootstrap.css" /> -->
+    <!-- 方法二: -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.css" />
+    <!-- 方法三:  -->
+    <!-- 路径使用Hash值,<HashRouter><HashRouter/> -->
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

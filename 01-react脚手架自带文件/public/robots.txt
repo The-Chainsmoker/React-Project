@@ -1,0 +1,4 @@
+//设置爬虫文件协议,能爬什么,什么不能爬
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:

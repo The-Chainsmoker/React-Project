@@ -1,0 +1,14 @@
+.Root{
+  width: 400px;
+  background-color: bisque;
+  padding: 15px;
+}
+.A{
+  background-color:aqua;
+  width: 80%;
+  padding: 15px;
+}
+.B{
+  background-color:aquamarine;
+  width: 80%;
+}

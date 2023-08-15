@@ -1,0 +1,18 @@
+.A{
+  background-color: aqua;
+  height: 400px;
+  width: 50%;
+  margin: 10px;
+}
+.B{
+  background-color:bisque;
+  height: 300px;
+  width: 90%;
+  margin: 10px;
+}
+.C{
+  background: yellow;
+  height: 200px;
+  width: 90%;
+    margin: 10px;
+}
