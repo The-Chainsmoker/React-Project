@@ -1,0 +1,10 @@
+$color: antiquewhite;
+body {
+  //禁用文字选中
+  user-select: none;
+}
+
+img {
+  //禁止拖到图片
+  -webkit-user-drag: none;
+}
